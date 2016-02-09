@@ -1,0 +1,11 @@
+administration_admin_homepage:
+    path:     /
+    defaults: { _controller: AdministrationAdminBundle:Page:index }
+    requirements:
+        _method: GET
+
+administration_admin_login:
+    path:   /login
+    defaults: { _controller: AdministrationAdminBundle:Login:index }
+    requirements:
+        _method: POST
